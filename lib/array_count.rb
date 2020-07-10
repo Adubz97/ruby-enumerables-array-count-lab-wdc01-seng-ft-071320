@@ -14,6 +14,7 @@ def count_strings(array)
   array.count do |element|
     if element == String
       total += 1
+    else
     end
     total
   end
